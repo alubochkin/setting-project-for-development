@@ -1,0 +1,33 @@
+@import './reset';
+@import './variables/global';
+@import './themes/dark';
+@import './themes/lignt';
+
+body {
+  font-family: var(--font);
+  font-size: var(--fs-m);
+}
+
+h1 {
+  font-size: var(--fs-xl);
+}
+
+.title {
+  color: var(--secondary-color)
+}
+
+a {
+  color: var(--primary-color);
+}
+
+button {
+  border: 1px solid var(--secondary-color);
+  padding: 3px 5px;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  transition: .3s ease-in-out;
+}

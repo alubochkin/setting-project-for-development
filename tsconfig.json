@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+		"lib": ["dom", "dom.iterable", "esnext"],
+    "outDir": "./dist/",
+    "baseUrl": "./",
+    "noImplicitAny": true,
+		"module": "esnext",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "skipLibCheck": true,
+		"esModuleInterop": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
